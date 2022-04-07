@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Lâmpada</title>
+</head>
+<body>
+    <h1>Lâmpada JS</h1>
+    
+    <div class="conteudoprincipal">
+        <h1>Lâmpada JS</h1>
+        <div class="contanier">
+            <img id="imagem" src="img/desligada.jpg" alt="lâmpada desligada" onmouseenter="entrar()" onmouseout="sair()" onclick="quebrar()">
+        </div>
+        <div class="botoes">
+            <input style="background-color: yellow;" class="botao" type="button" value="Ligar" onclick="ligar()">
+            <input style="background-color: aliceblue;" class="botao" type="button" value="Desligar" onclick="desligar()">
+        </div>
+    </div>
+    <p>&copy; Criado por Luís Mateus Billar</p>
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>
